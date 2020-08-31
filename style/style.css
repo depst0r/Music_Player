@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cookie';
+}
+
+.card {
+    width: 300px;
+    height: 555px;
+    border-radius: 15px;
+    background-color: #eee;
+    box-shadow: 5px 5px 5px #00000027,
+        -5px -5px -5px #fff;
+}
+
+.icon1 {
+    width: 300px;
+    height: 50px;
+    padding: 9px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #ccc,
+        -2px -2px -2px #fff;
+}
+
+.fa-arrow-left {
+    background-color: #eee;
+    padding: 9px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #ccc,
+        -2px -2px -2px #fff;
+}
+
+.card .fa-bars {
+    float: right;
+    background-color: #eee;
+    font-size: 15px;
+    padding: 9px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #ccc,
+        -2px -2px 3px #fff;
+}
+
+.heading {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.icon2 {
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.img_div {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    border-radius: 50%;
+    border: 5px solid #ff00ff;
+    padding: 7px;
+    box-shadow: 2px 2px 3px #ccc,
+        -2px -2px 3px #fff,
+        inset 2px 2px 3px #ccc,
+        inset -2px -2px 3px #fff;
+}
+
+.img_div1 {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    background: center/cover url("https://img2.goodfon.ru/wallpaper/nbig/b/ae/kubik-rubika-chernyy-belyy.jpg") no-repeat;
+    box-shadow: 2px 2px 3px #ccc,
+        -2px -2px 3px #fff;
+}
+
+.icon3 {
+    width: 300px;
+    height: 60px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.icon3 p {
+    font-size: 15px;
+    color: #555;
+}
+
+.icon3 h3 {
+    color: #000;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.icon4 {
+    width: 300px;
+    height: 65px;
+    background-color: #eee;
+    padding-top: 10px;
+}
+
+.left {
+    width: 70px;
+    height: 5px;
+    background-color: #ff0000;
+    float: left;
+    margin: 10px 0 10px 10px;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+    box-shadow: 1px 1px 3px #ccc,
+        -1px -1px 3px #fff;
+}
+
+.right {
+    width: 180px;
+    height: 5px;
+    background-color: #aaa;
+    float: right;
+    margin: 10px 0 10px 0px;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+    box-shadow: 1px 1px 3px #ccc,
+        -1px -1px 3px #fff;
+}
+
+#c {
+    color: yellow;
+    width: 30px;
+    background-color: #aaa;
+    font-size: 20px;
+    padding: 5px 5px 0 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #ccc,
+        -2px -2px 3px #fff;
+}
+
+.icon5 {
+    width: 300px;
+    height: 130px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+.icon5 .a {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 3px solid #00ff00;
+    position: relative;
+    box-shadow: 2px 2px 5px #ccc,
+        -2px -2px 5px #fff,
+        inset 2px 2px 3px #ccc,
+        inset -2px -2px 3px #fff;
+}
+
+.icon5 .a .a1 {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 50%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px #ccc,
+        -2px -2px 3px #fff;
+}
+
+#a1 {
+    background: #9559ff;
+}
+
+.end {
+    float: right;
+}
+
+.time {
+    margin-left: 10px;
+}
